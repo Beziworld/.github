@@ -69,6 +69,7 @@ composer require beziworld/laravel-<name>
 | Package | What it does |
 |---|---|
 | [laravel-company-data](https://github.com/Beziworld/laravel-company-data) | GUS REGON (BIR), VAT white list with bank account checks, EU VIES |
+| [laravel-krs](https://github.com/Beziworld/laravel-krs) | KRS open API: company extracts, board and representation, shareholders, status flags, daily change bulletin watcher |
 | [laravel-uldk](https://github.com/Beziworld/laravel-uldk) | GUGiK ULDK: cadastral parcels and administrative units by id or coordinates, WKT/GeoJSON |
 | [laravel-nbp](https://github.com/Beziworld/laravel-nbp) | NBP exchange rates and gold prices, VAT invoice rate rule, currency conversion |
 | [laravel-polish-validation](https://github.com/Beziworld/laravel-polish-validation) | Validation rules: PESEL, NIP, REGON, KRS, IBAN/NRB, ID card, postal code, phone |
