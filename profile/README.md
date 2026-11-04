@@ -35,6 +35,7 @@ composer require beziworld/laravel-<name>
 | [laravel-ifirma](https://github.com/Beziworld/laravel-ifirma) | iFirma: HMAC-signed invoices, payments, KSeF submission |
 | [laravel-saldeo](https://github.com/Beziworld/laravel-saldeo) | SaldeoSMART API-XML: companies, contractors, documents and OCR, invoices, bank statements |
 | [laravel-edi-epp](https://github.com/Beziworld/laravel-edi-epp) | InsERT EDI++ (.epp) for Subiekt GT/nexo, Rewizor, Rachmistrz: typed builders, streaming reader, spec validation |
+| [laravel-firmao](https://github.com/Beziworld/laravel-firmao) | Firmao CRM/ERP: customers, products with stock, invoices with PDF, offers, orders, stock documents, change sync |
 
 ## Couriers and shipping
 
@@ -92,6 +93,9 @@ composer require beziworld/laravel-<name>
 | [laravel-teryt](https://github.com/Beziworld/laravel-teryt) | TERYT register import into Eloquent, daily sync, ws1 client, postal codes, address autocomplete and validation |
 | [laravel-edoreczenia](https://github.com/Beziworld/laravel-edoreczenia) | e-Doręczenia: registered electronic deliveries, evidences, BAE address search, poller and notification channel |
 | [laravel-wezel-krajowy](https://github.com/Beziworld/laravel-wezel-krajowy) | Login with login.gov.pl (Profil Zaufany, mObywatel, e-dowód): SAML artifact binding, ECDSA, ECDH-ES assertions |
+| [laravel-nfz](https://github.com/Beziworld/laravel-nfz) | NFZ: waiting times, contracts and statistics open APIs, eWUŚ patient insurance verification |
+| [laravel-gus-bdl](https://github.com/Beziworld/laravel-gus-bdl) | GUS Local Data Bank (BDL): statistical data series by territorial unit, TERYT lookup, quota-aware |
+| [laravel-dane-gov](https://github.com/Beziworld/laravel-dane-gov) | dane.gov.pl open data: datasets, resources, institutions, streaming tabular reader, downloads |
 | [laravel-nbp](https://github.com/Beziworld/laravel-nbp) | NBP exchange rates and gold prices, VAT invoice rate rule, currency conversion |
 | [laravel-polish-validation](https://github.com/Beziworld/laravel-polish-validation) | Validation rules: PESEL, NIP, REGON, KRS, IBAN/NRB, ID card, postal code, phone |
 | [laravel-polish-calendar](https://github.com/Beziworld/laravel-polish-calendar) | Polish public holidays and business day calculations, Carbon macros, rules |
