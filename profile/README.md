@@ -26,6 +26,7 @@ composer require beziworld/laravel-<name>
 | Package | What it does |
 |---|---|
 | [laravel-ksef](https://github.com/Beziworld/laravel-ksef) | KSeF 2.0: token authentication, encrypted sessions, FA(3) builder validated against the official XSD, UPO, QR links |
+| [laravel-jpk](https://github.com/Beziworld/laravel-jpk) | JPK_V7M(3)/V7K(3), JPK_FA(4), JPK_MAG with official XSD validation and encrypted submission to the MF gateway |
 | [laravel-fakturownia](https://github.com/Beziworld/laravel-fakturownia) | Fakturownia: invoices, PDF, e-mail, payments, clients, products, KSeF submission |
 | [laravel-infakt](https://github.com/Beziworld/laravel-infakt) | inFakt API v3: asynchronous invoice creation, PDF, payments, e-mail, clients |
 | [laravel-wfirma](https://github.com/Beziworld/laravel-wfirma) | wFirma: invoices, contractors, goods, PDF, e-mail |
@@ -76,6 +77,8 @@ composer require beziworld/laravel-<name>
 | [laravel-krs](https://github.com/Beziworld/laravel-krs) | KRS open API: company extracts, board and representation, shareholders, status flags, daily change bulletin watcher |
 | [laravel-ceidg](https://github.com/Beziworld/laravel-ceidg) | CEIDG API v3: sole proprietorships by NIP or REGON, register search, validation rule, status watcher |
 | [laravel-uldk](https://github.com/Beziworld/laravel-uldk) | GUGiK ULDK: cadastral parcels and administrative units by id or coordinates, WKT/GeoJSON |
+| [laravel-teryt](https://github.com/Beziworld/laravel-teryt) | TERYT register import into Eloquent, daily sync, ws1 client, postal codes, address autocomplete and validation |
+| [laravel-edoreczenia](https://github.com/Beziworld/laravel-edoreczenia) | e-Doręczenia: registered electronic deliveries, evidences, BAE address search, poller and notification channel |
 | [laravel-nbp](https://github.com/Beziworld/laravel-nbp) | NBP exchange rates and gold prices, VAT invoice rate rule, currency conversion |
 | [laravel-polish-validation](https://github.com/Beziworld/laravel-polish-validation) | Validation rules: PESEL, NIP, REGON, KRS, IBAN/NRB, ID card, postal code, phone |
 | [laravel-polish-calendar](https://github.com/Beziworld/laravel-polish-calendar) | Polish public holidays and business day calculations, Carbon macros, rules |
