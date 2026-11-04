@@ -34,6 +34,7 @@ composer require beziworld/laravel-<name>
 | [laravel-wfirma](https://github.com/Beziworld/laravel-wfirma) | wFirma: invoices, contractors, goods, PDF, e-mail |
 | [laravel-ifirma](https://github.com/Beziworld/laravel-ifirma) | iFirma: HMAC-signed invoices, payments, KSeF submission |
 | [laravel-saldeo](https://github.com/Beziworld/laravel-saldeo) | SaldeoSMART API-XML: companies, contractors, documents and OCR, invoices, bank statements |
+| [laravel-edi-epp](https://github.com/Beziworld/laravel-edi-epp) | InsERT EDI++ (.epp) for Subiekt GT/nexo, Rewizor, Rachmistrz: typed builders, streaming reader, spec validation |
 
 ## Couriers and shipping
 
