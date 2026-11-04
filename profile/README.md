@@ -21,6 +21,7 @@ composer require beziworld/laravel-<name>
 | [laravel-autopay](https://github.com/Beziworld/laravel-autopay) | Autopay (Blue Media): transactions, ITN notifications, gateway list, refunds |
 | [laravel-imoje](https://github.com/Beziworld/laravel-imoje) | imoje (ING): payment links, transactions, BLIK, refunds, signed notifications |
 | [laravel-inpost-pay](https://github.com/Beziworld/laravel-inpost-pay) | InPost Pay merchant integration: basket binding, signed callback routes, orders, refunds, transaction webhooks |
+| [laravel-paypo](https://github.com/Beziworld/laravel-paypo) | PayPo buy now, pay later: transactions, confirmation, refunds, cancellations, signed notifications |
 
 ## Invoicing and KSeF
 
@@ -44,6 +45,9 @@ composer require beziworld/laravel-<name>
 | [laravel-orlen-paczka](https://github.com/Beziworld/laravel-orlen-paczka) | ORLEN Paczka: parcels, labels, tracking, all pickup points |
 | [laravel-gls](https://github.com/Beziworld/laravel-gls) | GLS Poland ADE-Plus: consignments, labels, pickup confirmations, ParcelShop, services, tracking |
 | [laravel-poczta-polska](https://github.com/Beziworld/laravel-poczta-polska) | Poczta Polska e-Nadawca (Pocztex, parcels, COD, pickup points, labels, envelopes) and public tracking |
+| [laravel-ups](https://github.com/Beziworld/laravel-ups) | UPS REST: shipments with labels and customs forms, rates, tracking, Access Points, pickups, paperless |
+| [laravel-fedex](https://github.com/Beziworld/laravel-fedex) | FedEx REST: shipments with commercial invoices, rates, tracking, tracking webhooks, locations, pickups |
+| [laravel-dhl-express](https://github.com/Beziworld/laravel-dhl-express) | DHL Express MyDHL: shipments with customs invoices, rates, products, tracking, proof of delivery, pickups |
 | [laravel-furgonetka](https://github.com/Beziworld/laravel-furgonetka) | Furgonetka.pl: OAuth2, prices, packages, order commands, labels, points |
 | [laravel-apaczka](https://github.com/Beziworld/laravel-apaczka) | Apaczka.pl: valuation, orders, waybills, pickups, signed tracking webhooks |
 
@@ -56,6 +60,7 @@ composer require beziworld/laravel-<name>
 | [laravel-idosell](https://github.com/Beziworld/laravel-idosell) | IdoSell Admin API v8: multiple shops, orders, products, stock and prices, parcels, returns, RMA, invoices, webhooks |
 | [laravel-shoper](https://github.com/Beziworld/laravel-shoper) | Shoper REST API: multiple shops, orders, products and stocks, parcels, bulk requests, rate limiting, webhooks |
 | [laravel-erli](https://github.com/Beziworld/laravel-erli) | Erli marketplace Shop API: products, stock and prices, orders, change polling, tracking, hooks |
+| [laravel-opinions](https://github.com/Beziworld/laravel-opinions) | Customer reviews: Trusted Shops invitations, reviews and cached ratings, Ceneo Zaufane Opinie script, rating badge |
 
 ## SMS and messaging
 
@@ -79,6 +84,7 @@ composer require beziworld/laravel-<name>
 | [laravel-company-data](https://github.com/Beziworld/laravel-company-data) | GUS REGON (BIR), VAT white list with bank account checks, EU VIES |
 | [laravel-krs](https://github.com/Beziworld/laravel-krs) | KRS open API: company extracts, board and representation, shareholders, status flags, daily change bulletin watcher |
 | [laravel-ceidg](https://github.com/Beziworld/laravel-ceidg) | CEIDG API v3: sole proprietorships by NIP or REGON, register search, validation rule, status watcher |
+| [laravel-debt-registers](https://github.com/Beziworld/laravel-debt-registers) | KRD debtor checks and debt submissions with drivers and multiple accounts |
 | [laravel-uldk](https://github.com/Beziworld/laravel-uldk) | GUGiK ULDK: cadastral parcels and administrative units by id or coordinates, WKT/GeoJSON |
 | [laravel-teryt](https://github.com/Beziworld/laravel-teryt) | TERYT register import into Eloquent, daily sync, ws1 client, postal codes, address autocomplete and validation |
 | [laravel-edoreczenia](https://github.com/Beziworld/laravel-edoreczenia) | e-Doręczenia: registered electronic deliveries, evidences, BAE address search, poller and notification channel |
