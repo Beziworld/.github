@@ -109,6 +109,12 @@ composer require beziworld/laravel-<name>
 | [laravel-plesk](https://github.com/Beziworld/laravel-plesk) | Plesk REST and XML API: customers, subscriptions, DNS, databases, mail, Let's Encrypt, CLI gate |
 | [laravel-cloudflare](https://github.com/Beziworld/laravel-cloudflare) | Cloudflare API v4: zones, DNS, cache purge, SSL/TLS, WAF, Turnstile rule, trusted proxies middleware |
 
+## Machine learning
+
+| Package | What it does |
+|---|---|
+| [laravel-ml](https://github.com/Beziworld/laravel-ml) | Laravel-first ML on Rubix ML: Eloquent datasets, model classes, cross validation, versioned signed models, queued training, predictions, Apriori, drift checks |
+
 ## Need an integration?
 
 Custom integrations with Polish and European services, KSeF, payments, couriers and marketplaces:
