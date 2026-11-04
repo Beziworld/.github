@@ -48,6 +48,8 @@ composer require beziworld/laravel-<name>
 | [laravel-ups](https://github.com/Beziworld/laravel-ups) | UPS REST: shipments with labels and customs forms, rates, tracking, Access Points, pickups, paperless |
 | [laravel-fedex](https://github.com/Beziworld/laravel-fedex) | FedEx REST: shipments with commercial invoices, rates, tracking, tracking webhooks, locations, pickups |
 | [laravel-dhl-express](https://github.com/Beziworld/laravel-dhl-express) | DHL Express MyDHL: shipments with customs invoices, rates, products, tracking, proof of delivery, pickups |
+| [laravel-ambro](https://github.com/Beziworld/laravel-ambro) | Ambro Express: shipments, pallets and furniture, labels, waybills, manifests, pickups, tracking |
+| [laravel-geis](https://github.com/Beziworld/laravel-geis) | Geis GService (PL, CZ, SK): parcel and cargo shipments, orders, labels, pickups, tracking, routing |
 | [laravel-furgonetka](https://github.com/Beziworld/laravel-furgonetka) | Furgonetka.pl: OAuth2, prices, packages, order commands, labels, points |
 | [laravel-apaczka](https://github.com/Beziworld/laravel-apaczka) | Apaczka.pl: valuation, orders, waybills, pickups, signed tracking webhooks |
 
