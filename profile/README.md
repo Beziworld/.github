@@ -50,6 +50,8 @@ composer require beziworld/laravel-<name>
 |---|---|
 | [laravel-allegro](https://github.com/Beziworld/laravel-allegro) | Allegro REST API: OAuth2 (PKCE, device flow), multi-seller, order and offer event polling, Wysyłam z Allegro |
 | [laravel-baselinker](https://github.com/Beziworld/laravel-baselinker) | BaseLinker: all 211 API methods, multiple accounts, journal polling, rate limiting |
+| [laravel-idosell](https://github.com/Beziworld/laravel-idosell) | IdoSell Admin API v8: multiple shops, orders, products, stock and prices, parcels, returns, RMA, invoices, webhooks |
+| [laravel-shoper](https://github.com/Beziworld/laravel-shoper) | Shoper REST API: multiple shops, orders, products and stocks, parcels, bulk requests, rate limiting, webhooks |
 
 ## SMS and messaging
 
