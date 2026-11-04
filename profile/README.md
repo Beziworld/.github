@@ -75,11 +75,14 @@ composer require beziworld/laravel-<name>
 | [laravel-polish-validation](https://github.com/Beziworld/laravel-polish-validation) | Validation rules: PESEL, NIP, REGON, KRS, IBAN/NRB, ID card, postal code, phone |
 | [laravel-polish-calendar](https://github.com/Beziworld/laravel-polish-calendar) | Polish public holidays and business day calculations, Carbon macros, rules |
 
-## Hosting
+## Hosting and DNS
 
 | Package | What it does |
 |---|---|
 | [laravel-directadmin](https://github.com/Beziworld/laravel-directadmin) | DirectAdmin: users, domains, e-mail, databases, DNS, SSL, cron, backups |
+| [laravel-cpanel](https://github.com/Beziworld/laravel-cpanel) | cPanel UAPI and WHM: accounts, packages, SSO, domains, DNS, e-mail, MySQL, SSL, FTP, cron, backups |
+| [laravel-plesk](https://github.com/Beziworld/laravel-plesk) | Plesk REST and XML API: customers, subscriptions, DNS, databases, mail, Let's Encrypt, CLI gate |
+| [laravel-cloudflare](https://github.com/Beziworld/laravel-cloudflare) | Cloudflare API v4: zones, DNS, cache purge, SSL/TLS, WAF, Turnstile rule, trusted proxies middleware |
 
 ## Need an integration?
 
