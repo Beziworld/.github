@@ -40,6 +40,7 @@ composer require beziworld/laravel-<name>
 | [laravel-dhl-parcel](https://github.com/Beziworld/laravel-dhl-parcel) | DHL Parcel Polska (DHL24 WebAPI2): shipments, labels, courier booking, tracking |
 | [laravel-orlen-paczka](https://github.com/Beziworld/laravel-orlen-paczka) | ORLEN Paczka: parcels, labels, tracking, all pickup points |
 | [laravel-gls](https://github.com/Beziworld/laravel-gls) | GLS Poland ADE-Plus: consignments, labels, pickup confirmations, ParcelShop, services, tracking |
+| [laravel-poczta-polska](https://github.com/Beziworld/laravel-poczta-polska) | Poczta Polska e-Nadawca (Pocztex, parcels, COD, pickup points, labels, envelopes) and public tracking |
 | [laravel-furgonetka](https://github.com/Beziworld/laravel-furgonetka) | Furgonetka.pl: OAuth2, prices, packages, order commands, labels, points |
 | [laravel-apaczka](https://github.com/Beziworld/laravel-apaczka) | Apaczka.pl: valuation, orders, waybills, pickups, signed tracking webhooks |
 
