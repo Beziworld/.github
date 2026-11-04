@@ -20,6 +20,7 @@ composer require beziworld/laravel-<name>
 | [laravel-paynow](https://github.com/Beziworld/laravel-paynow) | Paynow (mBank): payments, BLIK, refunds, HMAC-signed notifications |
 | [laravel-autopay](https://github.com/Beziworld/laravel-autopay) | Autopay (Blue Media): transactions, ITN notifications, gateway list, refunds |
 | [laravel-imoje](https://github.com/Beziworld/laravel-imoje) | imoje (ING): payment links, transactions, BLIK, refunds, signed notifications |
+| [laravel-inpost-pay](https://github.com/Beziworld/laravel-inpost-pay) | InPost Pay merchant integration: basket binding, signed callback routes, orders, refunds, transaction webhooks |
 
 ## Invoicing and KSeF
 
@@ -31,6 +32,7 @@ composer require beziworld/laravel-<name>
 | [laravel-infakt](https://github.com/Beziworld/laravel-infakt) | inFakt API v3: asynchronous invoice creation, PDF, payments, e-mail, clients |
 | [laravel-wfirma](https://github.com/Beziworld/laravel-wfirma) | wFirma: invoices, contractors, goods, PDF, e-mail |
 | [laravel-ifirma](https://github.com/Beziworld/laravel-ifirma) | iFirma: HMAC-signed invoices, payments, KSeF submission |
+| [laravel-saldeo](https://github.com/Beziworld/laravel-saldeo) | SaldeoSMART API-XML: companies, contractors, documents and OCR, invoices, bank statements |
 
 ## Couriers and shipping
 
@@ -53,6 +55,7 @@ composer require beziworld/laravel-<name>
 | [laravel-baselinker](https://github.com/Beziworld/laravel-baselinker) | BaseLinker: all 211 API methods, multiple accounts, journal polling, rate limiting |
 | [laravel-idosell](https://github.com/Beziworld/laravel-idosell) | IdoSell Admin API v8: multiple shops, orders, products, stock and prices, parcels, returns, RMA, invoices, webhooks |
 | [laravel-shoper](https://github.com/Beziworld/laravel-shoper) | Shoper REST API: multiple shops, orders, products and stocks, parcels, bulk requests, rate limiting, webhooks |
+| [laravel-erli](https://github.com/Beziworld/laravel-erli) | Erli marketplace Shop API: products, stock and prices, orders, change polling, tracking, hooks |
 
 ## SMS and messaging
 
