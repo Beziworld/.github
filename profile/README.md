@@ -39,6 +39,7 @@ composer require beziworld/laravel-<name>
 | [laravel-dpd](https://github.com/Beziworld/laravel-dpd) | DPD Polska: shipments, labels, protocols, pickups, tracking, DPD Pickup points |
 | [laravel-dhl-parcel](https://github.com/Beziworld/laravel-dhl-parcel) | DHL Parcel Polska (DHL24 WebAPI2): shipments, labels, courier booking, tracking |
 | [laravel-orlen-paczka](https://github.com/Beziworld/laravel-orlen-paczka) | ORLEN Paczka: parcels, labels, tracking, all pickup points |
+| [laravel-gls](https://github.com/Beziworld/laravel-gls) | GLS Poland ADE-Plus: consignments, labels, pickup confirmations, ParcelShop, services, tracking |
 | [laravel-furgonetka](https://github.com/Beziworld/laravel-furgonetka) | Furgonetka.pl: OAuth2, prices, packages, order commands, labels, points |
 | [laravel-apaczka](https://github.com/Beziworld/laravel-apaczka) | Apaczka.pl: valuation, orders, waybills, pickups, signed tracking webhooks |
 
@@ -70,6 +71,7 @@ composer require beziworld/laravel-<name>
 |---|---|
 | [laravel-company-data](https://github.com/Beziworld/laravel-company-data) | GUS REGON (BIR), VAT white list with bank account checks, EU VIES |
 | [laravel-krs](https://github.com/Beziworld/laravel-krs) | KRS open API: company extracts, board and representation, shareholders, status flags, daily change bulletin watcher |
+| [laravel-ceidg](https://github.com/Beziworld/laravel-ceidg) | CEIDG API v3: sole proprietorships by NIP or REGON, register search, validation rule, status watcher |
 | [laravel-uldk](https://github.com/Beziworld/laravel-uldk) | GUGiK ULDK: cadastral parcels and administrative units by id or coordinates, WKT/GeoJSON |
 | [laravel-nbp](https://github.com/Beziworld/laravel-nbp) | NBP exchange rates and gold prices, VAT invoice rate rule, currency conversion |
 | [laravel-polish-validation](https://github.com/Beziworld/laravel-polish-validation) | Validation rules: PESEL, NIP, REGON, KRS, IBAN/NRB, ID card, postal code, phone |
