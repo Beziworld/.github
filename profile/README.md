@@ -1,7 +1,7 @@
 # Beziworld: Laravel packages for Polish business integrations
 
-Open-source Laravel packages for payments, invoicing and KSeF, couriers, marketplaces, SMS, hotels, hosting and
-Polish public registers. Created and maintained by **Kamil Ćwiertnia**, [beziworld.eu](https://beziworld.eu).
+Open-source Laravel packages for payments, invoicing and KSeF, couriers, marketplaces, SMS, e-mail marketing and CRM,
+documents and e-signatures, label printing, hotels, hosting and Polish public registers. Created and maintained by **Kamil Ćwiertnia**, [beziworld.eu](https://beziworld.eu).
 
 Every package supports PHP 8.3+ and Laravel 12-13, is tested with Pest and analysed with PHPStan level 8, ships a
 facade, publishable config and documentation in English and Polish, and installs with Composer:
@@ -22,6 +22,7 @@ composer require beziworld/laravel-<name>
 | [laravel-imoje](https://github.com/Beziworld/laravel-imoje) | imoje (ING): payment links, transactions, BLIK, refunds, signed notifications |
 | [laravel-inpost-pay](https://github.com/Beziworld/laravel-inpost-pay) | InPost Pay merchant integration: basket binding, signed callback routes, orders, refunds, transaction webhooks |
 | [laravel-paypo](https://github.com/Beziworld/laravel-paypo) | PayPo buy now, pay later: transactions, confirmation, refunds, cancellations, signed notifications |
+| [laravel-comfino](https://github.com/Beziworld/laravel-comfino) | ComfinoPay installments and BNPL: financial products, signed loan applications, cancellation, CR-Signature status webhooks, widget |
 
 ## Invoicing and KSeF
 
@@ -54,6 +55,9 @@ composer require beziworld/laravel-<name>
 | [laravel-geis](https://github.com/Beziworld/laravel-geis) | Geis GService (PL, CZ, SK): parcel and cargo shipments, orders, labels, pickups, tracking, routing |
 | [laravel-furgonetka](https://github.com/Beziworld/laravel-furgonetka) | Furgonetka.pl: OAuth2, prices, packages, order commands, labels, points |
 | [laravel-apaczka](https://github.com/Beziworld/laravel-apaczka) | Apaczka.pl: valuation, orders, waybills, pickups, signed tracking webhooks |
+| [laravel-polkurier](https://github.com/Beziworld/laravel-polkurier) | Polkurier.pl: carriers, valuation, orders, labels, protocols, courier pickups, status polling, COD settlement, points |
+| [laravel-globkurier](https://github.com/Beziworld/laravel-globkurier) | GlobKurier.pl: product search and quotes, add-ons, orders, best price orders, labels, protocols, pickups, tracking |
+| [laravel-label-printing](https://github.com/Beziworld/laravel-label-printing) | Server side printing: ZPL builder, courier ZPL/EPL passthrough, ESC/POS receipts with Polish code pages, TCP 9100, CUPS, queued jobs |
 
 ## Marketplaces and e-commerce
 
@@ -74,6 +78,23 @@ composer require beziworld/laravel-<name>
 | [laravel-serwersms](https://github.com/Beziworld/laravel-serwersms) | SerwerSMS.pl: SMS, MMS, voice, HLR, notification channel |
 | [laravel-smsplanet](https://github.com/Beziworld/laravel-smsplanet) | SMSPlanet.pl: SMS, MMS, signed delivery webhooks, notification channel |
 | [laravel-twilio](https://github.com/Beziworld/laravel-twilio) | Twilio: SMS, WhatsApp, Verify, Lookup, signed webhooks, notification channel |
+
+## E-mail, marketing and CRM
+
+| Package | What it does |
+|---|---|
+| [laravel-emaillabs](https://github.com/Beziworld/laravel-emaillabs) | EmailLabs (Vercom): Laravel mail transport, templates, tags, signed delivery and bounce webhooks as events, blacklist, stats |
+| [laravel-getresponse](https://github.com/Beziworld/laravel-getresponse) | GetResponse API v3 and MAX: contacts, tags, custom fields, newsletters, transactional e-mails, webhooks, Eloquent sync |
+| [laravel-salesmanago](https://github.com/Beziworld/laravel-salesmanago) | SALESmanago (Manago AI): contacts, external events, consents, tags, product catalogs, async exports with webhooks |
+| [laravel-livespace](https://github.com/Beziworld/laravel-livespace) | Livespace CRM: persons, companies, deals, tasks, notes, users, custom fields, web forms, multiple accounts |
+
+## Documents and e-signatures
+
+| Package | What it does |
+|---|---|
+| [laravel-xades](https://github.com/Beziworld/laravel-xades) | XAdES-BES and XAdES-B-B signing and strict verification of XML documents, PKCS#12/PEM, official XSD validation |
+| [laravel-autenti](https://github.com/Beziworld/laravel-autenti) | Autenti e-signature API v2: document processes, participants, files, signing links, JWT bearer auth, JWS-verified callbacks |
+| [laravel-docx-templates](https://github.com/Beziworld/laravel-docx-templates) | Word templates on PHPWord: disks, blocks, table rows, images, Eloquent models, escaping, PDF through LibreOffice |
 
 ## Hotels
 
@@ -100,7 +121,7 @@ composer require beziworld/laravel-<name>
 | [laravel-polish-validation](https://github.com/Beziworld/laravel-polish-validation) | Validation rules: PESEL, NIP, REGON, KRS, IBAN/NRB, ID card, postal code, phone |
 | [laravel-polish-calendar](https://github.com/Beziworld/laravel-polish-calendar) | Polish public holidays and business day calculations, Carbon macros, rules |
 
-## Hosting and DNS
+## Hosting, servers and DNS
 
 | Package | What it does |
 |---|---|
@@ -108,6 +129,11 @@ composer require beziworld/laravel-<name>
 | [laravel-cpanel](https://github.com/Beziworld/laravel-cpanel) | cPanel UAPI and WHM: accounts, packages, SSO, domains, DNS, e-mail, MySQL, SSL, FTP, cron, backups |
 | [laravel-plesk](https://github.com/Beziworld/laravel-plesk) | Plesk REST and XML API: customers, subscriptions, DNS, databases, mail, Let's Encrypt, CLI gate |
 | [laravel-cloudflare](https://github.com/Beziworld/laravel-cloudflare) | Cloudflare API v4: zones, DNS, cache purge, SSL/TLS, WAF, Turnstile rule, trusted proxies middleware |
+| [laravel-ispconfig](https://github.com/Beziworld/laravel-ispconfig) | ISPConfig 3 remote API (JSON, no ext-soap): clients, websites, DNS, mail, databases, cron, FTP, backups |
+| [laravel-hestiacp](https://github.com/Beziworld/laravel-hestiacp) | Hestia Control Panel: users, web domains, DNS, mail, databases, cron, backups, Let's Encrypt |
+| [laravel-mailcow](https://github.com/Beziworld/laravel-mailcow) | mailcow: domains, mailboxes, aliases, quotas, DKIM, app passwords, mail queue, quarantine, logs |
+| [laravel-proxmox](https://github.com/Beziworld/laravel-proxmox) | Proxmox VE: nodes, QEMU VMs, LXC containers, snapshots, backups, storage, UPID task waiter, many clusters |
+| [laravel-unifi](https://github.com/Beziworld/laravel-unifi) | UniFi Network official and classic APIs: sites, devices, clients, hotspot guests, vouchers, Wi-Fi, events |
 
 ## Machine learning
 
